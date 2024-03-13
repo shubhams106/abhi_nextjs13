@@ -1,9 +1,9 @@
 import React from "react";
 
-const Layout = ({ children }: { childern: React.ReactNode }) => {
+const Layout = ({ childern }: { childern: React.ReactNode }) => {
   return (
     <main className="flex min-h-screen w-full items-center justify-center">
-      {children}
+      {childern}
     </main>
   );
 };
